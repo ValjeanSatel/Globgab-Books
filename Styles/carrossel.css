@@ -24,6 +24,7 @@
 .card_descricao {
    display: none;
    justify-content: space-between;
+   margin-bottom: 0.5em;
 }
 
 .card_botoes {
@@ -57,4 +58,16 @@
 
 .descricao_texto {
    font-size: 14px;
+}
+
+.botoes_item {
+   margin: 0 0.5em;
+}
+
+.botoes_ancora {
+   background: var(--laranja);
+   padding: 1em 2.2em;
+   color: var(--branco);
+   font-weight: 700;
+   text-decoration: none;
 }
