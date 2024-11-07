@@ -21,3 +21,6 @@
    margin: .5em 0;
 }
 
+.card_descricao {
+   display: none;
+}
