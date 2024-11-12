@@ -6,3 +6,8 @@ hr {
     background-color: var(--branco);
     padding: 1em;
 }
+
+.rodapé_texto {
+    font-size: 14px;
+    text-align: center;
+}
