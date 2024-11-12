@@ -21,7 +21,8 @@
    margin: .5em 0;
 }
 
-.card {
+.card, 
+.card_autor {
    background: var(--branco);
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
    border-radius: 10px;
@@ -72,3 +73,4 @@
 .botões_item {
    margin: 0 0.5em;
 }
+
