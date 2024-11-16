@@ -72,9 +72,14 @@
   </div>
 
     <div class="container">
-     <a href="#"><img src="Images/Favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-transparente"></a>
-     <a href="#"><img src="Images/Compras.svg" alt="Carrinho de compras" class="container__imagem" ></a>
-     <a href="#"><img src="Images/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+     <a href="#"><img src="Images/Favoritos.svg" alt="Meus favoritos" 
+       class="container__imagem container__imagem-transparente"></a>
+     <a href="#" class="container__link"><img src="Images/Compras.svg" alt="Carrinho de compras" class="container__imagem">
+     <p class="container__texto">Minha sacola</p>
+    </a>
+     <a href="#" class="container__link"><img src="Images/Usuario.svg" alt="Meu perfil" class="container__imagem">
+      <p class="container__texto">Meu perfil</p>
+    </a>
     </div>
 </header>
 
@@ -87,7 +92,8 @@
      <section class="carrossel">
        <h2 class="carrossel__titulo">Lançamentos</h2>
        <!-- Slider main container -->
-<div class="swiper">
+        <div class="carrossel__container">
+   <div class="swiper">
   <!-- Additional required wrapper -->
 
   <div class="swiper-wrapper">
@@ -117,7 +123,7 @@
       </div>
 
       <!-- 2ª coluna -->
-      <img src="Images/BibliotecaMeiaNoite.jpeg" class="descrição__imagem">
+      <img src="Images/BibliotecaMeiaNoite.png" class="descrição__imagem">
     </div>
 
     <!-- 2ª linha -->
@@ -131,10 +137,12 @@
        <a href="#" class="botões__ancora">Saiba mais</a>
     </div>
   </div>
+</div>
      </section>
 
      <section class="carrossel">
       <h2 class="carrossel__titulo">Mais vendidos</h2>
+      <div class="carrossel__container">
       <div class="swiper">
         <!-- Additional required wrapper -->
         <!-- If we need pagination -->
@@ -142,7 +150,7 @@
   
         <div class="swiper-wrapper">
           <!-- Slides -->
-          <div class="swiper-slide"><img src="Images/BibliotecaMeiaNoite.jpeg" alt="Viaje em uma jornada pela autodescoberta e reflexão em um dos maiores best-sellers da atualidade!"></div>
+          <div class="swiper-slide"><img src="Images/BibliotecaMeiaNoite.png" alt="Viaje em uma jornada pela autodescoberta e reflexão em um dos maiores best-sellers da atualidade!"></div>
               <div class="swiper-slide"><img src="Images/A Arte da Guerra.jpg" alt="Essa obra milenar é primordial na guerra, nos negócios e na vida!"></div>
           <div class="swiper-slide"><img src="Images/Dom Quixote.jpg" alt="Um dos livros mais famosos de todos os tempos contém uma história repleta de humor, mas com reflexões e críticas a sociedade."></div>
           <div class="swiper-slide"><img src="Images/A Hora da Estrela.jpg" alt="Clásico brasileiro escrito por Clarice Lispector, a obra aprofunda as condições humanas, seus sentimentos e o ideal social"></div>
@@ -167,7 +175,7 @@
           </p>
         </div>
         <!-- 2º coluna -->
-        <img src="Images/Victor-Hugo.jpeg" class="descrição__imagem">
+        <img src="Images/Victor Hugo.png" class="descrição__imagem">
       </div>
 
          <!-- 2º linha -->
@@ -181,8 +189,8 @@
           <a href="#" class="botões__ancora">Saiba mais</a>
         </div>
       </div>
-  
-    </section>
+    </div>
+   </section>
 
       <section class="tópicos">
         <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
