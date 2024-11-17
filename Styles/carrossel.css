@@ -92,6 +92,10 @@
       display: block;
       top: 60%;
    }
+
+   .card {
+      align-items: center;
+   }
 }
 
 @media screen and (min-width: 1728px) {
